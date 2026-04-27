@@ -1,0 +1,40 @@
+# Sensitive files - never push these
+.env
+api_key_backup.txt
+secrets.toml
+.streamlit/secrets.toml
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+
+# Test data with client information
+test_data/
+sample_cases/
+*.xlsx
+!template.xlsx
+
+# Generated reports (these should not be committed)
+generated_reports/
+output/
+
+# Logs
+*.log
